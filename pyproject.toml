@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hh-and-sj"
+version = "0.1.0"
+description = ""
+authors = ["Andrey <hamanist@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hh_and_sj"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
